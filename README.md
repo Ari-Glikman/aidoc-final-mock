@@ -36,24 +36,12 @@ In that case the BP will identify that the message already exists and not POST i
 Finally this is our table of our two patients: Morty, Smith, and Rick, Sanchez (no correlation to Smith, Morty or Sanchez, Rick). After multiple updated patient records only the most updated ones are stored in the table (though of course this can be changed as one would want). 
 
 Before:
-MSH|^~\&|MEI MUSE|A|CAR||20060726155037||ORU^R01|20060726155037|P|2.3
-PID|1||001234^^^^^ABC|008034878|Morty^Smith||19590414|M||W||||||||
-PD1|||||||||||
-PV1|2|I|H2NW||||001926^PRETE^CAROLE PAU|001926^PRETE^CAROLE PAU|||||||||||4159
-PV2|||||||||||
-ORC|||||||||||
-OBR|1|E33068||93226X01^ECG|||20060726162108|16%2021%208%20255||||||||001649^ZUNAMON^ALAN||||||20060726155037|||F||001^ONCE^X01^20060728000000|||||001649^ZUNAMON, MD^ALAN|^^|352^BRANDT^MARGIE|206^KRONICK^NAN
-NTE|||||||||||
-OBX|||Temp^Temperature||41|C||||||||200607261550
-NTE|1||TX*Left ventricular hypertrophy with QRS widening*F|
-NTE|2||TX*Abnormal ECG*F|
-NTE|3||TX*No previous ECGs available*F|
-NTE|3||TX*Interpreted and confirmed by:  alan zunamon (126)*F|
-NTE|5||TX*Overread By: ALAN ZUNAMON, MD*F|
-CTI|||||||||||
-DSC|||||||||||
+
+![image](https://github.com/Ari-Glikman/aidoc-final-mock/assets/73805987/29c02d50-fec9-4b1e-8b7e-7abfb6cdf61d)
+
 
 After:
+
 ![image](https://github.com/Ari-Glikman/aidoc-final-mock/assets/73805987/9043a15d-a4b7-41f3-8ccf-7ea390bea641)
 
 Questions?
