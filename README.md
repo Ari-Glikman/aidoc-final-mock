@@ -1,6 +1,3 @@
-![image](https://github.com/Ari-Glikman/aidoc-final-mock/assets/73805987/bbf04f15-e73c-42f1-9f89-617873a3ac9e)# aidoc-final-mock
-
-
 This is a mock example of a production that takes in HL7 messages via a TCP port, processesses them to decide whether they are identical to previous messages or not, and if the latter (assuming it is a valid message) POSTS a JSON message to a REST API Endpoint as well as updates internal tables to maintain patient records.
 
 A simplified image is here:
@@ -23,6 +20,7 @@ We can take a peak inside the process via a message trace:
 The 'brains' of the operation is the buisness processes. The best part of it all is that it's simple to make! You don't need to spend hours on stackoverflow understanding functions you will never use again like in other systems.
 All you do is 'draw' what you want, compile, and we will make that class for you without you needing to intervene.
 
+![image](https://github.com/Ari-Glikman/aidoc-final-mock/assets/73805987/bbf04f15-e73c-42f1-9f89-617873a3ac9e)
 
 Of course, there is lots more scenarios and possibilities, but we just wanted to create a simple example demonstrating some of the possibilities. 
 
