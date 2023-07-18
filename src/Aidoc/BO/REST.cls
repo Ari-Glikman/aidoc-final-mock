@@ -1,14 +1,12 @@
-Class Aidoc.REST Extends EnsLib.REST.Operation [ ProcedureBlock ]
+Class Aidoc.BO.REST Extends EnsLib.REST.Operation [ ProcedureBlock ]
 {
 
 /// This operation allows you to check if you have acces to Ensemble. <br> - <b>Operate it only in develeopment!</b><br> - It can be operated from a browser as well. <br> - It should show you the IP you are connected from
 Method GETHello(pRequest As Aidoc.REQ.Hello, pResponse As Aidoc.RES.UpdatePatientData) As %Status
 {
-
 	Set tStatus = $$$OK
 	#dim Err as %Exception.AbstractException
 	set pResponse=##class(Aidoc.RES.UpdatePatientData).%New()
-
 	try {
 		set pURL 						= ..Adapter.URL_"/Hello"
 		set pHttpRequestIn				= ##class(%Net.HttpRequest).%New()
