@@ -1,4 +1,4 @@
-# aidoc-final-mock
+![image](https://github.com/Ari-Glikman/aidoc-final-mock/assets/73805987/bbf04f15-e73c-42f1-9f89-617873a3ac9e)# aidoc-final-mock
 
 
 This is a mock example of a production that takes in HL7 messages via a TCP port, processesses them to decide whether they are identical to previous messages or not, and if the latter (assuming it is a valid message) POSTS a JSON message to a REST API Endpoint as well as updates internal tables to maintain patient records.
@@ -23,7 +23,6 @@ We can take a peak inside the process via a message trace:
 The 'brains' of the operation is the buisness processes. The best part of it all is that it's simple to make! You don't need to spend hours on stackoverflow understanding functions you will never use again like in other systems.
 All you do is 'draw' what you want, compile, and we will make that class for you without you needing to intervene.
 
-![image](https://github.com/Ari-Glikman/aidoc-final-mock/assets/73805987/8dcbe17b-287d-4de0-bb96-54cb5cd3f641)
 
 Of course, there is lots more scenarios and possibilities, but we just wanted to create a simple example demonstrating some of the possibilities. 
 
@@ -35,3 +34,10 @@ In that case the BP will identify that the message already exists and not POST i
 
 Finally this is our table of our two patients: Morty, Smith, and Rick, Sanchez (no correlation to Smith, Morty or Sanchez, Rick). After multiple updated patient records only the most updated ones are stored in the table (though of course this can be changed as one would want).
 ![image](https://github.com/Ari-Glikman/aidoc-final-mock/assets/73805987/9043a15d-a4b7-41f3-8ccf-7ea390bea641)
+
+Questions?
+Reach out and we (Keren or Ari) will be happy to help
+
+For info about creating the REST Dispatch and Implementation classes check out our colleague, Guillaume Rongier's great repo [here](https://github.com/grongierisc/objectscript-openapi-definition)
+
+Finally, check out Lorenzo Scalese's [repo] (https://github.com/lscalese/OpenAPI-Client-Gen/) for creating an IRIS Interoperability Production generator from an OpenAPI Specification. 
