@@ -1,5 +1,5 @@
 /// Description
-Class Aidoc.POC.Table Extends %Persistent
+Class Aidoc.Table Extends %Persistent
 {
 
 Property FirstName As %String;
