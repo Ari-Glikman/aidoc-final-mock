@@ -38,4 +38,4 @@ Reach out and we (Keren or Ari) will be happy to help
 
 For info about creating the REST Dispatch and Implementation classes check out our colleague, Guillaume Rongier's great repo [here](https://github.com/grongierisc/objectscript-openapi-definition)
 
-Finally, check out Lorenzo Scalese's [repo] (https://github.com/lscalese/OpenAPI-Client-Gen/) for creating an IRIS Interoperability Production generator from an OpenAPI Specification. 
+Finally, check out Lorenzo Scalese's [repo](https://github.com/lscalese/OpenAPI-Client-Gen/) for creating an IRIS Interoperability Production generator from an OpenAPI Specification. 
